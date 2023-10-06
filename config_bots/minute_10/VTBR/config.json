@@ -1,0 +1,33 @@
+{
+    "limitations_technical": {
+        "model_accuracy": 0.0010279326416798961,
+        "num_values_for_predict": 39,
+        "num_predictions": 1
+    },
+    "limitations_cash": {
+        "min_count_lot": 0,
+        "min_count_money": 100,
+        "current_count_lot": 1,
+        "current_count_money": 801.1500000000003,
+        "quantity": 1,
+        "min_price_increment": 5e-06,
+        "stock_in_lot": 10000
+    },
+    "parameters_model": {
+        "path_model": "models/minute_10/VTBR/VTBR_model_minute_10.pkl",
+        "name_model": "VTBR_model_minute_10",
+        "figi": "BBG004730ZJ9",
+        "interval_time": "10m",
+        "day_for_training": 14,
+        "order": 35,
+        "mean_relative_error": 0.0010279326416798961,
+        "mean_absolute_error": 2.828953806572918e-05,
+        "num_values_for_predict": 39,
+        "num_predictions": 1,
+        "spread_days_percent": 0.3,
+        "spread_order_percent": 0.2,
+        "spread_num_values_for_predict": 0.5
+    },
+    "path_order_dump": "data_orders/minute_10/VTBR/orders.json",
+    "path_to_config": "config_bots/minute_10/VTBR/config.json"
+}
