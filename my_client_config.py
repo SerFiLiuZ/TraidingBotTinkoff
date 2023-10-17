@@ -1,5 +1,5 @@
-TOKEN = "t.HBV53U2aHIiWEC0gImRS0Xsq4Uoiq7BBMo-8QjE_-h1vtBLvzP3D25q5u_unlRuiMTmMPz59EQAsPeYFsBy8mg"
-account_id = '2092288568'
+TOKEN = "TOKEN"
+account_id = 'account_id'
 
 EXCHANGE_COMMISSION = 0.05/100
 
